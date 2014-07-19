@@ -160,7 +160,7 @@ Course Outline:
 **Led by: Tegan Bristow & Anton Coetzee:**  
 **Class Project Outcomes 25% of course total.**
 
-Implementation project for “The Internt of Things” that follows directly from Part1, 2 & 3. This project will focus on implementation with a ‘client’ (ie. Wits Art Museum) and as a publically accessible and usable short project.
+Implementation project for “The Internet of Things” that follows directly from Part 1, 2 & 3. This project will focus on implementation with a ‘client’ (ie. Wits Art Museum) and as a publically accessible and usable short project.
 
 ### Part 5: Collaborative Project | 6th October – 26th November
 **Led by: Tegan Bristow:**  

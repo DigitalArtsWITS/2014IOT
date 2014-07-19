@@ -1,8 +1,8 @@
 ![Imgur](http://i.imgur.com/VIKVCOf.png)
 
-### WSOA 7016 / WSOA 5034
-### Professional Practice in Digital Art
-### Course Outline 2014 (draft)
+**WSOA 7016 / WSOA 5034**  
+**Professional Practice in Digital Art**  
+**Course Outline 2014 (draft)**  
 
 Lecturer: Tegan Bristow | tegan.bristow@wits.ac.za | Office 3B Wits | 011-717- 4604 | Room 3B Digital Convent
 

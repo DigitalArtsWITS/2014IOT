@@ -133,7 +133,7 @@ Collaborative Project with Engineering and Electronic Music Composition.
 Course Outline: 
 ===============
 
-### Part 1: 21st July – 4th August**  
+### Part 1: 21st July – 4th August
 **Led by: Tegan Bristow**  
 **Class Project Outcomes 10% of course total.**  
 

@@ -8,6 +8,8 @@ Lecturer: Tegan Bristow | tegan.bristow@wits.ac.za | Office 3B Wits | 011-717- 4
 
 Venue: Interactive Lab, 1st Floor, Digital Convent
 
+Course duration: 21st July to 26th November
+
 Class Times: Mon & Thurs: 9:00 - 12:30 (2nd Semester only)
 
 Please note: That class time might run over into Monday and Thursday afternoons, which are used as compulsory lab time. All students must be present for full days on Mondays and Thursdays.
@@ -108,8 +110,8 @@ Assessment:
 
 
 
-Overview of 2nd Semester Coursework:  21st July to 26th November
-================================================================
+Overview of 2nd Semester Coursework
+===================================
 
 **Part 1: Class | 21st July – 4th August**  
 With Tegan Bristow: Learning module covering basics of web development and interaction.

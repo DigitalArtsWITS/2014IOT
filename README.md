@@ -12,7 +12,7 @@ Class Times: Mon & Thurs: 9:00 - 12:30 (2nd Semester only)
 
 Please note: That class time might run over into Monday and Thursday afternoons, which are used as compulsory lab time. All students must be present for full days on Mondays and Thursdays.
 
---------------------------------------------
+
 
 Course Outcomes:
 ================
@@ -21,7 +21,7 @@ This 2nd semester practice course is a follow on course from Applied Concepts in
 
 Students will gain proficency in the following: HTML, CSS, Javascript, JQuery, Processing.js, Node.JS, JSON, expanded RaspberryPi, Node-Red, networked and social media intergration.
 
---------------------------------------------
+
 
 Guest Lecturers for 2014:
 =========================
@@ -30,7 +30,7 @@ Rouan van der Ende  | rouan@8bo.org | 0724703295
 
 Anton Coetzee | anton.coetzee@gmail.com
 
---------------------------------------------
+
 
 Assessment:
 ===========
@@ -106,7 +106,7 @@ Assessment:
 	</tr>
 </tbody></table>
 
-------------------------------------------------------------------
+
 
 Overview of 2nd Semester Coursework:  21st July to 26th November
 ================================================================
@@ -126,7 +126,7 @@ Implementation project for “The Internet of Things” that follows directly fr
 **Part 5: Collaborative Project | 6th October – 26th November**  
 Collaborative Project with Engineering and Electronic Music Composition.
 
-------------------------------------------------------------------
+
 
 Course Outline: 
 ===============
@@ -177,7 +177,7 @@ This is a professional practice exam – marking will focus on these broad areas
 
 Specific details will be given to you closer to the time.
 
---------------------------------------------------------------------------------
+
 
 Course Rules:
 =============

@@ -21,11 +21,15 @@ Use the example code from the node.js website to get your hello world server wor
 
 Familiarise yourself with using the **node** and **npm** commands.
 
-Use npm to install express, swig, socket.io and any other modules we'll need.
+Use npm to install express from http://expressjs.com/
 
 Use express to host a static HTML site.
+ 
+Use npm to install swig, see http://paularmstrong.github.io/swig/
 
 Use swig to render HTML templates.
+
+Use npm to install socket.io, see http://socket.io/
 
 Use socket.io to build a chat system.
 

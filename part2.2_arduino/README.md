@@ -1,6 +1,6 @@
 ![Imgur](http://i.imgur.com/VIKVCOf.png)
 
-### Part 2.2 - Arduino & Serial Coms | One class project (arduino device with serial json api) – 50% of part 2 total
+### Part 2.2 - Arduino & Serial Coms 
 **Led by: Rouan van der Ende**  
 
 Class Outline

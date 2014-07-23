@@ -6,7 +6,7 @@
 Class Outline
 =============
 
-You will learn how to use node.js to build a web server, use the express framework to handle static file hosting, session data handling, routes. We'll use swig to help us with templating html files together and socket.io to relay messages between server and clients in realtime.
+You will learn how to use node.js to build a web server, use the express framework to handle static file hosting and routes. We'll use swig to help us with templating html files together and socket.io to relay messages between server and clients in realtime.
 
 At the end of this class you should be able to build a simple web chat, this counts 25% of part 2 total.
 

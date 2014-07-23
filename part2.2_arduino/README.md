@@ -24,17 +24,19 @@ Install drivers if needed for your OS
 Use the arduino to build a simple 3 light circuit similar to a road traffic signal.
 
 ![Imgur](http://i.imgur.com/PoEUpxa.jpg)  
-Image made with (fritzing)[http://fritzing.org/]
+Image made with http://fritzing.org/
 
 **2.2.2**
 
-Use the arduino to measure light intensity or a potentiometer knob and make this affect the speed of light switching.
+Add a LDR (light-dependent resistor) to your circuit and change the functionality of the LEDs so that the red light is on when it is dark, yellow is on when light is at medium intensity and the green LED is on when it is in direct sunlight.
+
+![Imgur](http://i.imgur.com/YE6iG7U.jpg)
 
 **2.2.3**
 
 Download and install the aJson library from https://github.com/interactive-matter/aJson 
 
-Set up the arduino to send and recieve JSON formatted data. 
+Set up the arduino to send and receive JSON formatted data. Use the serial monitor to send commands to the arduino and control the intensity of LEDs.
 
 	For example:
 

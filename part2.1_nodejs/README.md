@@ -10,7 +10,7 @@ You will learn how to use node.js to build a web server, use the express framewo
 
 At the end of this class you should be able to build a simple web chat, this counts 25% of part 2 total.
 
-Notes
+Class
 =====
 
 Install node.js from http://nodejs.org/
@@ -21,18 +21,23 @@ Use the example code from the node.js website to get your hello world server wor
 
 Familiarise yourself with using the **node** and **npm** commands.
 
-Use npm to install express from http://expressjs.com/
+In the [2.1.3_express](https://github.com/DigitalArtsWITS/2014IOT/tree/master/part2.1_nodejs/2.1.3_express) folder on your local machine. Run `npm install` and then `node server.js` and open http://localhost 
 
-Use express to host a static HTML site.
- 
-Use npm to install swig, see http://paularmstrong.github.io/swig/
+Note the visit counter increasing even if visiting from several browsers. This is the power of socket.io
 
-Use swig to render HTML templates.
+Disect the code to understand how it is built. 
 
-Use npm to install socket.io, see http://socket.io/
+Fix the /contact page.
 
-Use socket.io to build a chat system.
+Use socket.io to build a chat messaging system under the /chat url.
 
-End of part 2.1
+Links
+=====
 
-Continue with part 2.2
+http://nodejs.org/
+
+http://expressjs.com/
+
+http://paularmstrong.github.io/swig/
+
+http://socket.io/

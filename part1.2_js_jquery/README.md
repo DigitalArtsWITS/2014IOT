@@ -6,10 +6,13 @@
 Class Outline
 =============
 
-Class outline draft
+Basic's of JS and it's use with JQuery and JS Libraries.
 
 Notes
 =====
+
+1. Javascript Basic Functions.
+2. Including JQuery or Interaction and Media
 
 End of part 1.2
 

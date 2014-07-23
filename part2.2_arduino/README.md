@@ -40,8 +40,8 @@ Set up the arduino to send and receive JSON formatted data. Use the serial monit
 
 	For example:
 
-	Arduino sends 		{"brightness":"1023", "knob": "123"}   
-	Arduino recieves	{"LED1": "1.0", "LED2": "0.5", "LED3": "0.25"}   
+	Arduino sends 		{"light":123}          // tells us how much light is falling on the LDR 0-1023
+	Arduino recieves	{"brightness": "0.1"}  // we tell the arduino how bright to make a LED light
 
 **2.2.4**
 

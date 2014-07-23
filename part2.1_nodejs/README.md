@@ -15,7 +15,7 @@ Notes
 
 Install node.js from http://nodejs.org/
 
-Learn how to use node.js as a console scripting tool.
+Learn how to use node.js as a console scripting tool. See [2.1.1_gettingStarted.md](https://github.com/DigitalArtsWITS/2014IOT/blob/master/part2.1_nodejs/2.1.1_gettingStarted.md)
 
 Use the example code from the node.js website to get your hello world server working.
 

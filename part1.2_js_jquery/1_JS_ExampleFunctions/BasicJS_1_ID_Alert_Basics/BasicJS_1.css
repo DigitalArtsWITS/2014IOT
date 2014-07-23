@@ -1,0 +1,40 @@
+body, html {
+    background-color: yellow;
+}
+
+p, h1, h2 {
+    font-family: sans-serif;
+}
+
+/* color classes*/
+.spaceColor {
+    background-color: yellow;
+}
+
+/* dic classes*/
+.panel {
+    text-align: left;
+    color: black;
+    background-color:#BFBFD4;
+    padding:1px;
+    width: 600px;
+    height: 120px;
+    box-shadow: 10px 10px 1px #8d8d8d
+}
+
+.space {
+    background-color: spaceColor;
+    width: 600px;
+    height: 20px;
+}
+
+/* demo Id's - all three the same*/
+#demo1, #demo2, #demo3 {
+    text-align: left;
+    color: black;
+    background-color: #FFDAED;
+    width: 400px;
+    box-shadow: 10px 10px 1px #8d8d8d
+}
+
+

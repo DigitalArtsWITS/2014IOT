@@ -1,0 +1,22 @@
+body, html {
+    background-color: #FF85C2;
+}
+
+p, h1 {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#panel{
+    background-color: #FFDAED;
+    width: 400px;
+    box-shadow: 10px 10px 1px #8d8d8d;
+}
+
+#panel1{
+    background-color: #85E0FF;
+    width: 400px;
+    box-shadow: 10px 10px 1px #8d8d8d;
+}
+

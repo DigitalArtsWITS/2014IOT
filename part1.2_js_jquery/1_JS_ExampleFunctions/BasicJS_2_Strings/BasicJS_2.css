@@ -1,0 +1,37 @@
+body, html {
+    background-color: #0066FF;
+}
+p, h1, h2 {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.bgColor {
+    background-color: #BBBBBB;   
+}
+
+.panel {
+    text-align: left;
+    color: black;
+    background-color: #FFCCE0;
+    width: 600px;
+    height: 163px;
+    box-shadow: 10px 10px 1px #1947A3;
+}
+
+.space {
+    width: 600px;
+    height: 20px;
+}
+
+#demo, #demo1, #demo2, #demo3 {
+    padding: 5px;
+    text-align: left;
+    color: #149DCC;
+    width: 400px;
+   
+}
+
+
+

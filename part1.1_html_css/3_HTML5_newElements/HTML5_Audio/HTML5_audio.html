@@ -1,0 +1,20 @@
+<!-- Week 3, audio and video controls in HTML-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<audio controls>
+    <source src="./music_notes/c_note.mp3" type="audio/mpeg"></source>
+    <source src="./music_notes/c_note.ogg" type="audio/ogg"></source>
+    <source src="./music_notes/c_note.wav" type="audio/wav"></source> 
+  Your browser does not support the audio element.
+</audio>
+
+</body>
+</html>
+
+<!--
+The control attribute adds audio controls, like play, pause, and volume.
+You should also insert text content between the <audio> and </audio> tags for browsers that do not support the <audio> element.
+The <audio> element allows multiple <source> elements. <source> elements can link to different audio files. The browser will use the first recognized format.
+-->

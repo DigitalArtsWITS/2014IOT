@@ -23,7 +23,8 @@ Install drivers if needed for your OS
 
 Use the arduino to build a simple 3 light circuit similar to a road traffic signal.
 
-~[Imgur](http://i.imgur.com/PoEUpxa.jpg)
+![Imgur](http://i.imgur.com/PoEUpxa.jpg)  
+Image made with (fritzing)[http://fritzing.org/]
 
 **2.2.2**
 

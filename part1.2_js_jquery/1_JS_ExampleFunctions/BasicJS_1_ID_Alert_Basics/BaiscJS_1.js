@@ -6,7 +6,7 @@ for a block
 */
 
 //calls an alert popUp in which you can place text - uncomment this code and run it, see what happens...
-//alert("hello world");
+//alert("hi welcome");
 
 //Function that puts information into an element with a particular #id.
 /*
@@ -20,6 +20,7 @@ function myChanging() {
      * "innerHTML" - means place what ever is after the "=" this in the HTML
      * Then we point to a string that we want places in the HTML element associated with that id" */
     document.getElementById("demo1").innerHTML = "Became a Little More Interesting";
+    alert("hi welcome");
 }
 
 //Function that calls the "confirm" popUp and uses a the placeholder variable x to put the chosen ID

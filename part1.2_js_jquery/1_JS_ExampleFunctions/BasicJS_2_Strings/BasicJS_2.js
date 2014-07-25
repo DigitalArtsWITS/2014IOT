@@ -10,7 +10,7 @@ function myString()
 {
  var demo = document.getElementById( "demo" ) ;
  // declaring 3 string variables
- var s1 = "frogs" , s2 = "jumping like" , s3 = "dogs" ;
+ var s1 = "Frogs" , s2 = "jumping like" , s3 = "dogs" ;
  // also a picture file name
  var picName = "myPic", picFile = "frogJump.jpg" ;
  // these are all the javascript "string" functions
@@ -22,7 +22,7 @@ function myString()
  demo.innerHTML += "<br><img id='myPic'>" ; 
  document.images[ picName ].src = picFile ;
  // EQUATES TO...
- // document.images[ "myPic" ].src="poolballs.png"; 
+ // document.images[ "myPic" ].src="forJump.png"; 
 }
 
 //Working with sub strings in JS with string variables

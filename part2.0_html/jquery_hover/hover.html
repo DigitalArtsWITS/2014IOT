@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <title>wits jquery hover</title>
+  <style>
+
+  #mybox { 
+    color: white;
+    background-color: rgb(100,100,100);
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+  }
+
+  </style>
+  <script src="jquery-1.11.1.min.js"></script>
+</head>
+
+<body>
+
+  <div id="mybox"> some content </div>
+
+<script>
+  
+   
+  var boxin = function() {
+    $( this ).css("background-color", "rgb(125,0,100)");
+  }
+
+  var boxout = function() {
+    $( this ).css("background-color", "rgb(255,50,150)");
+  }
+  
+  $("#mybox").hover(boxin, boxout);  //connects the above two functions to the div #mybox 
+
+  </script>
+ 
+</body>
+</html>

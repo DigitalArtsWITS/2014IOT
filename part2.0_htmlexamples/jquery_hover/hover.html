@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <title>wits jquery hover</title>
+  <style>
+
+  #mybox { 
+    color: white;
+    background-color: rgb(100,100,100);
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+  }
+
+  </style>
+  <script src="jquery-1.11.1.min.js"></script>
+</head>
+
+<body>
+
+<p>
+There are two seperate events, one on entry of the box, and one when the mouse moves out of the box.<br>
+
+The colour needs to be set back to the colour you want, it is not "remembered".<br>
+
+ See the source code. Also, note the use of console.log() by opening the javascript developer console by pressing ctrl+shift+j or cmd+opt+j on mac.</p>
+
+  <div id="mybox"> some content </div>
+
+<script>
+  
+   
+  var boxin = function() {
+    console.log("in");
+    $( this ).css("background-color", "rgb(125,0,100)");
+  }
+
+  var boxout = function() {
+    console.log("out");
+    $( this ).css("background-color", "rgb(255,50,150)");
+  }
+  
+  $("#mybox").hover(boxin, boxout);  //connects the above two functions to the div #mybox 
+
+  </script>
+ 
+</body>
+</html>

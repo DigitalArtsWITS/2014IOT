@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <title>wits jquery hover</title>
+  <style>
+
+  #mybox { 
+    color: white;
+    background-color: rgb(100,100,100);
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+  }
+
+  </style>
+  <script src="jquery-1.11.1.min.js"></script>
+</head>
+
+<body>
+
+<p>
+This is to show how jquery's click events work. Very similar to hover.<br>
+
+See the source code. Also, note the use of console.log() by opening the 
+javascript developer console by pressing ctrl+shift+j or cmd+opt+j on mac.</p>
+
+  <div id="mybox"> some content </div>
+
+<script>
+   
+  var boxclick = function() {
+    console.log("in");
+    $( this ).css("background-color", "rgb(125,0,100)");
+    $( this ).html("You clicked!");
+  }
+  
+	// Try each of these:
+
+  $("#mybox").click(boxclick);  
+  //$("#mybox").mouseup(boxclick);  	
+  //$("#mybox").mousedown(boxclick);  	
+  
+
+  </script>
+ 
+</body>
+</html>

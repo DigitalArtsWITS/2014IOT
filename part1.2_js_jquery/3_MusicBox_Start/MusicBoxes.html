@@ -1,4 +1,4 @@
-<!-- Week 8, Music Boxes, example borrowed from the Google code project-->
+<!-- Week 2, Music Boxes, example borrowed from the Google code project-->
 <!doctype html>
 
 <html lang="en">
@@ -6,14 +6,25 @@
     <title>Music Test</title>
     <script src="./jquery/jquery-1.11.1.js"></script>
     <!-- //online source // <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
-    <!--<script language="javascript" type="text/javascript" src="MusicBoxes.js"></script> -->
+    <script language="javascript" type="text/javascript" src="MusicBoxes.js"></script> 
     <link rel="stylesheet" type="text/css" href="MusicBoxes.css"> 
 </head>
 <body>
-    <audio controls>
+    <div id="instrument" >
+    <div id="c" class="box"></div>
+    <div id="d" class="box"></div>
+    </div>
+    
+    <audio id="cAudio">
         <source src="./media/music_notes/c_note.mp3" type="audio/mpeg"></source>
         <source src="./media/music_notes/c_note.ogg" type="audio/ogg"></source>
         <source src="./media/music_notes/c_note.wav" type="audio/wav"></source>  
     </audio>
+    <audio id="dAudio">
+        <source src="./media/music_notes/d_note.mp3" type="audio/mpeg"></source>
+        <source src="./media/music_notes/d_note.ogg" type="audio/ogg"></source>
+        <source src="./media/music_notes/d_note.wav" type="audio/wav"></source>  
+    </audio>
+    
 </body>
 </html> 

@@ -6,10 +6,12 @@
 Class Outline
 =============
 
-Class outline draft
+Learning processing with processing JS and seeing how we can communicate to and from processing through html and javasscript
 
 Notes
 =====
+
+Two sections: Basic and Expanded
 
 End of part 1.3
 

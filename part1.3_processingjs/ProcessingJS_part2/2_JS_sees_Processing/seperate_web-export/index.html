@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+ <html>
+	<head>
+	<meta charset="utf-8">
+       <title>Processing Seeing Javascript</title>
+       <link rel="stylesheet" type="text/css" href="Seeing_JS.css">
+       <script type="text/javascript" src="processing.js"></script>
+	<script>
+	      var bound = false;
+	     
+	      function bindJavaScript(){
+		     var mySketch = Processing.getInstanceById('sketchID');
+		     if (mySketch != null) { 
+			    mySketch.bindJavaScript(this);
+			    bound = true;    
+		     }
+		     if (!bound) {
+			    setTimeout(bindJavaScript, 250);
+		     }
+	      }
+	      // run the function
+	      bindJavaScript();
+	      
+	      //function that gets the x and y coordinates
+		function showXY(x,y) {
+			document.getElementById('xcoord').value = x;
+			document.getElementById('ycoord').value = y;
+		}
+		
+	</script>
+	</head>
+	
+     <body>
+	<h1>Seeing Javascript</h1>
+	<p>Binding the JavaScript to Processing: <br/>Then pointing to a JavaScript from the Processing function with "JavaScript.showXY and the "Processing.getInstanceById(id)" instance.</p>
+	<canvas id="sketchID" data-processing-sources="Seeing_Processing.pde"></canvas>
+	<div id="inputArea">
+	 x/y: <input type="textfield" id="xcoord">/<input type="textfield" id="ycoord">
+	</div>
+     </body>
+</html>

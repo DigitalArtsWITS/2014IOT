@@ -1,0 +1,32 @@
+ <!DOCTYPE html>
+ <html>
+	<head>
+	<meta charset="utf-8">
+       <title>Processing Seeing Javascript</title>
+       <link rel="stylesheet" type="text/css" href="Seeing_JS.css">
+       <script type="text/javascript" src="processing.js"></script>
+	<script>
+	      function loadPoints(id, button) {
+		     var mySketch = Processing.getInstanceById(id);
+		     var points = mySketch.getPoints();
+		     
+		     points.add(new mySketch.Point(10,10));
+		     points.add(new mySketch.Point(10,490));
+		     points.add(new mySketch.Point(490,490));
+		     points.add(new mySketch.Point(490,10));
+		     
+		     mySketch.draw();
+	      }
+		
+	</script>
+	</head>
+	
+     <body>
+	<h1>Passing Data to Processing Objects</h1>
+	<p>Using the "Processing.getInstanceById(id)" to add data to Processing Objects</p>
+	<canvas id="sketchID" data-processing-sources="Processing_JS_objects.pde"></canvas>
+	<div id="inputArea">
+	<button type="button" onclick="loadPoints('sketchID')">load points</button>
+	</div>
+     </body>
+</html>

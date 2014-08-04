@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+}
+
+#instrument {
+    height: 116px;
+    width: 812px;
+    padding-right: 10px;
+    padding-top: 50px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float:left;
+}
+
+
+#a{
+    background-color: #331f35;
+    border: 3px solid #a13fad;
+}
+
+#b{
+    background-color: #43293d;
+    border: 3px solid #f26fd4;
+}
+
+#c:hover {
+    background-color:#661920;
+    cursor: pointer;
+}
+#c:active {
+    background-color:#db1d2d;   
+}
+#c {
+    background-color: #3e181b;
+    border: 3px solid #db1d2d;
+}
+
+
+#d {
+    background-color: #422018;
+    border: 3px solid #f0421c;
+}
+
+#e {
+    background-color: #45391b;
+    border: 3px solid #fec02d;
+}
+
+#f {
+    background-color: #193c29;
+    border: 3px solid #20d071;
+}
+
+#g {
+    background-color: #18323e;
+    border: 3px solid #1a9ddb;
+}
+
+/* hover colors
+c: #661920
+d: #6e2819
+e: #735b20
+f: #1b613b
+g: #184d65
+a: #4e2753
+b: #6f3a62
+*/

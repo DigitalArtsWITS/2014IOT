@@ -9,7 +9,7 @@ void setup() {
   size(500, 600);
   smooth(4); // add extra smoothing to lines -- this takes more time, but gives better quality
 }
- 
+
 void draw() {
   background(255);
 
@@ -117,4 +117,5 @@ void draw() {
   ellipse(lr_secondControlX, lr_secondControlY, 5, 5);
   ellipse(ll_secondControlX, ll_secondControlY, 5, 5);
 }
+
 

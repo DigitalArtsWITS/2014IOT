@@ -8,7 +8,7 @@ void setup(){
 
 // runs the code you want to run
 void draw(){
-  print(" ");
+  //print("hello world");
   rect(width/2, height/2, 50, 50);
 }
 

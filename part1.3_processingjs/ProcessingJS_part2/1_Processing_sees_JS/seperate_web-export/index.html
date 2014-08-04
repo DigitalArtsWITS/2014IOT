@@ -1,0 +1,34 @@
+ <!DOCTYPE html>
+ <html>
+	<head>
+	<meta charset="utf-8">
+       <title>Processing Seeing Javascript</title>
+       <link rel="stylesheet" type="text/css" href="Seeing_JS.css">      
+       <script type="text/javascript" src="processing.js"></script>
+       
+	<script>
+		function drawSomeText(id) {
+			//name and identify a Processing JS Instance 
+			var mySketch = Processing.getInstanceById(id);
+			//name the "text" in the input field by the id name
+			var text = document.getElementById('inputtext').value;
+			// point the text to the processing JS function "draw text"
+			mySketch.drawText(text);
+		}
+	</script>
+	
+	</head>
+	
+     <body>
+	<h1>Seeing Javascript</h1>
+	<p>Pointing to a Processing function using "Processing.getInstanceById(id)" instance.</p>
+	
+	<canvas id="sketchID" data-processing-sources="Seeing_JavaScript.pde"></canvas>
+	
+	<div id="inputArea">
+	<input type="textField" value="your text" id="inputtext">
+	<button type="button" onclick="drawSomeText('sketchID')">place text</button>
+	</div>
+	
+     </body>
+</html>

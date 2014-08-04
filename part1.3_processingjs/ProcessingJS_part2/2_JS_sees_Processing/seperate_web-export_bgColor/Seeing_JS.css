@@ -1,0 +1,32 @@
+body {
+color: #bbb; line-height: normal;
+font-family: Lucida Grande, Lucida Sans, Arial, Helvetica Neue, Verdana, Geneva, sans-serif;
+font-size: 11px; font-weight: normal; text-decoration: none;
+line-height: 1.5em;
+}
+
+p {
+font-size: 14px;       
+}
+
+#sketchID {
+margin: 10px auto 0px auto; padding: 15px 15px 15px 15px;
+width: 500px; min-width: 300px; overflow: auto;
+background-color: #3d3d3d;
+}
+
+#inputArea {
+padding: 15px 15px 15px 15px;
+width: 500px;
+overflow: auto;
+background-color: #3d3d3d;
+}
+
+.bg1 {
+    background-color: black;
+}
+
+.bg2 {
+    background-color: grey;
+}
+

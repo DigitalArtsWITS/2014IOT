@@ -65,11 +65,15 @@ app.get('/', function (req, res) {
   io.sockets.emit('visitnum', { visitnum: visitcounter }); //sends out over sockets
   
   //static
-  res.render('index', { username: "test", visitnum: visitcounter }); // swig adds the extension automatically, which can be confusing. see file views/index.html
+  res.render('index', { username: "Rouan", visitnum: visitcounter }); // swig adds the extension automatically, which can be confusing. see file views/index.html
 });
 
 app.get('/about', function (req, res) {
   res.render('about'); // file views/about.html
+});
+
+app.get('/contact', function (req, res) {
+  res.render('contact'); // file views/contact.html
 });
 
 // add the contact page yourself
@@ -91,7 +95,7 @@ function errorHandler(err, req, res, next) {
 
 //=================================================================
 
-var server = app.listen(80, function() {
+var server = app.listen(3000, function() {
 	console.log(server.address())
     console.log('Listening on port %d', server.address().port);
 });

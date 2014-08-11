@@ -12,3 +12,5 @@ while (b <= c) {
     b = b + a
     console.log("hello " + b)   
 }
+
+

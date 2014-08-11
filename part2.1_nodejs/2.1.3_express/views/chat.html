@@ -1,0 +1,64 @@
+{% extends 'layout.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}	
+	<script>
+		var socket = io.connect();
+
+		socket.on('connect', function() {
+		   // Connected, let's authenticate over sockets.
+		   $("#socketstatus").html("connected!");
+		});
+
+		socket.on('visitnum', function(data) {
+		   // Connected, let's authenticate over sockets.
+		   console.log(data);
+		   $("#visitnum").html(data.visitnum);
+		});
+
+	</script>
+
+	</script>
+	<h1>Chat</h1> 
+
+	<input id="chatinput">
+
+	<button id="chatsend">send</button>
+
+	<div id="chatmessages"></div>
+
+	<script>
+	//SEND
+	$("#chatsend").click( function () {
+		console.log("it works");
+        var message = $("#chatinput").val();
+        console.log(message)
+        
+        var data = {}
+        data.message = ""
+        data.message = message
+        data.time = "monday"
+        data.user = "rouan"
+
+
+        socket.emit("ourmessage", data)
+        //sending to server
+	})
+
+	//RECIEVE
+	socket.on('messagefromserver', function(data) {
+		   // Connected, let's authenticate over sockets.
+		   console.log(data);
+		   $("#chatmessages").prepend(data.message+"<br>");
+	});
+
+	</script>
+
+	<p>Socket.io status <span id="socketstatus">loading</span></p>
+	
+	You are visitor number <span id="visitnum">{{ visitnum }}</span></p>
+	<img src="/images/digitalArtsWITS_logoc.png">
+
+	
+{% endblock %}

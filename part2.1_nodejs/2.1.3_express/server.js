@@ -74,6 +74,11 @@ app.get('/contact', function (req, res) {
   res.render('contact'); // file views/contact.html
 });
 
+app.get('/chat', function (req, res) {
+  res.render('chat', { student: "tegan" }); // chat.html
+  
+});
+
 // add the contact page yourself
 // add the contact page yourself
 // add the contact page yourself
@@ -105,11 +110,22 @@ var io = require('socket.io').listen(server, {log: false});
 io.sockets.on('connection', function (socket) {
 	console.log("SOCKET New Connection")
 
+  //new recieving server message
+  socket.on("ourmessage", function (frombrowser) {
+    //save to database
+    console.log("NEW INCOMING MESSAGE!!")
+    console.log(frombrowser);    
+    io.sockets.emit("messagefromserver", frombrowser)
+  });
+  
+
 	//talk
+  /*
   socket.on('message', function (data) {
     console.log("SOCKET Message " + data);    
     io.sockets.emit('message', {message: data });
   });
+*/
   
 });
 

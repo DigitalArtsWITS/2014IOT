@@ -1,0 +1,32 @@
+{% extends 'layout.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}	
+	<script>
+		var socket = io.connect();
+
+		socket.on('connect', function() {
+		   // Connected, let's authenticate over sockets.
+		   $("#socketstatus").html("connected!");
+		});
+
+		socket.on('visitnum', function(data) {
+		   // Connected, let's authenticate over sockets.
+		   console.log(data);
+		   $("#visitnum").html(data.visitnum);
+		});
+
+	</script>
+
+	</script>
+	<h1>Home</h1>
+	<p>Welcome {{ username }}<br>
+
+	<p>Socket.io status <span id="socketstatus">loading</span></p>
+	
+	You are visitor number <span id="visitnum">{{ visitnum }}</span></p>
+	<img src="/images/digitalArtsWITS_logoc.png">
+
+	
+{% endblock %}

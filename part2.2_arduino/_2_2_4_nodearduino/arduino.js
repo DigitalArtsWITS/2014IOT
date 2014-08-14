@@ -3,19 +3,25 @@ var scraper = require('json-scrape')(); // cleans messy serial messages.
 
 //LIST DEVICES
 SerialPort.list( function (err, ports) {
+	console.log("========================")
+	console.log(ports)
+	console.log("========================")
 	for (var num in ports) {
 		console.log(ports[num])
 	}
 });
 
 //CONNECT
-var arduino = new SerialPort.SerialPort('COM7', {baudrate: 9600}); //you must set the port and baudrate
+var arduino = new SerialPort.SerialPort('/dev/cu.usbmodemfd121', {baudrate: 9600}); //you must set the port and baudrate
 
-var arduConnect = function (connection) {
-	connection.on("data", arduDatahandler);
+
+
+var arduConnect = function (device) {
+	device.on("data", datahandler);
 }
 
-var arduDatahandler = function (data) {
+var datahandler = function (data) {
+	//console.log(data.toString())
 	//var strdata = data.toString()
 	scraper.write(data); 
 }
@@ -34,6 +40,8 @@ scraper.on('data', function (cleandata) {
 	console.log(test)
 	arduino.write(test)
 */
+
+
 
 arduConnect(arduino);
 

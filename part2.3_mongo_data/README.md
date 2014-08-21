@@ -17,13 +17,22 @@ Install mongo from http://www.mongodb.org/
 
 Create the /data/db folder needed and run mongod
 
-Learn the basics of the mongo command to see and enter data manually.
+Learn the basics of the *mongo* command to see and enter data manually.
 
-Install the mongojs node module from https://github.com/mafintosh/mongojs
+2.3.1 
+-----
+
+Install the mongojs node module from https://github.com/mafintosh/mongojs  
 
 Use nodejs to .save entries to the database.
 
+2.3.2
+-----
+
 Use .find to retrieve entries from the database.
+
+Optional
+-----
 
 Use processing.js to visualise data graphically. Ideally have socket.io update graphical display as new data is available.
 

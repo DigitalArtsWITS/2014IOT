@@ -82,6 +82,10 @@ app.get('/arduino', function (req, res) {
   res.render('arduino'); // file views/about.html
 });
 
+app.get('/arduprocessing', function (req, res) {
+  res.render('arduprocessing'); // file views/about.html
+});
+
 // add the contact page yourself
 // add the contact page yourself
 // add the contact page yourself
@@ -152,7 +156,7 @@ SerialPort.list( function (err, ports) {
 });
 
 //CONNECT
-var arduino = new SerialPort.SerialPort('/dev/cu.usbmodemfd121', {baudrate: 9600}); //you must set the port and baudrate
+var arduino = new SerialPort.SerialPort('COM17', {baudrate: 9600}); //you must set the port and baudrate
 
 
 

@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<title>processing shapes</title>
+		<script src="jquery-1.11.1.min.js"></script>
+		<script src="processing.min.js"></script>
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		
+	<style>
+
+		* {margin: 0; padding: 0;}
+		body { overflow: hidden; }
+
+	</style> 
+		
+
+		<script>
+		var mx = 0;
+		var my = 0;
+		//============================================
+		var sketch = function (pr) {
+				
+				pr.setup = function () 
+				{
+					pr.size( $(window).width(), $(window).height());
+					pr.background(25,20,20,255);
+					pr.frameRate(60);    
+				}; //END SETUP
+		
+		
+				pr.draw = function () 
+				{
+					pr.fill(0,255,0);
+					pr.ellipse(100,100,25,25);
+				}; //END DRAW
+				
+		};// END SKETCH
+		//============================================
+
+   function mouseDown( event ) {
+        //mousePress
+        //event.preventDefault();
+        console.log(event)
+    }
+    
+    function mouseMove( event ) {
+
+    	mx = event.clientX
+    	my = event.clientY
+    }
+
+		function keyDown( event ) {
+		}
+		
+    function keyUp( event ) {     //wasd   
+        if (event.which == 87) { }
+        if (event.which == 83) { }
+        if (event.which == 65) { }
+        if (event.which == 68) { }        
+    }
+    
+    function onWindowResize( event ) {
+		}
+		
+        document.addEventListener( 'mousedown', mouseDown, false );
+        document.addEventListener( 'mousemove', mouseMove, false );
+        document.addEventListener( 'keydown', keyDown, false );
+        document.addEventListener( 'keyup', keyUp, false );
+        window.addEventListener( 'resize', onWindowResize, false );
+
+		//When the page has loaded, start processing.
+		$(document).ready(function() {
+  		var test = $("body").height();
+		  console.log(  test);
+			$("#processing").height(  )
+			var canvas = document.getElementById("processing");
+			var processing = new Processing(canvas, sketch); 
+		});
+		
+		</script>
+	</head>
+
+	<body>
+		<canvas id="processing" ></canvas>
+	</body>
+</html>
+

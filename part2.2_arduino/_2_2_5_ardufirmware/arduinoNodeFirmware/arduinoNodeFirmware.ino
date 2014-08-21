@@ -22,7 +22,7 @@ void loop(void) {
  Serial.print(sensorvalue);
  Serial.println("\" }"); 
  
- delay(50); //just here to slow down the output so it is easier to read
+ delay(16); //just here to slow down the output so it is easier to read
 }
 
 
